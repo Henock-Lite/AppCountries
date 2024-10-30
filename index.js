@@ -51,7 +51,7 @@ inputRange.addEventListener("input", () => {
   rangeValue.textContent = inputRange.value;
   DisplayCountries();
 });
-let i;
+
 
 btnSort.forEach((btnSort) => {
   btnSort.addEventListener("click", (e) => {
